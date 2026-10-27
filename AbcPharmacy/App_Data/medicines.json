@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Dolo 650",
+    "Notes": "Strip of 15. Keep in cool place.",
+    "ExpiryDate": "2027-08-14T00:00:00",
+    "Quantity": 46,
+    "Price": 30.75,
+    "Brand": "Micro Labs"
+  },
+  {
+    "Id": 2,
+    "FullName": "Crocin Advance",
+    "Notes": "For fever. Not for children below 12 without doctor advice.",
+    "ExpiryDate": "2027-01-20T00:00:00",
+    "Quantity": 19,
+    "Price": 18.00,
+    "Brand": "GSK"
+  },
+  {
+    "Id": 3,
+    "FullName": "Azithral 500",
+    "Notes": "Antibiotic. Complete the course.",
+    "ExpiryDate": "2027-04-30T00:00:00",
+    "Quantity": 6,
+    "Price": 119.50,
+    "Brand": "Alembic"
+  },
+  {
+    "Id": 4,
+    "FullName": "Combiflam",
+    "Notes": "After food only.",
+    "ExpiryDate": "2026-10-28T00:00:00",
+    "Quantity": 35,
+    "Price": 42.25,
+    "Brand": "Sanofi"
+  },
+  {
+    "Id": 5,
+    "FullName": "Shelcal 500",
+    "Notes": "Calcium \u002B Vit D3",
+    "ExpiryDate": "2026-10-22T00:00:00",
+    "Quantity": 8,
+    "Price": 108.90,
+    "Brand": "Torrent"
+  },
+  {
+    "Id": 6,
+    "FullName": "Pan-D",
+    "Notes": "",
+    "ExpiryDate": "2028-03-11T00:00:00",
+    "Quantity": 14,
+    "Price": 145.00,
+    "Brand": "Alkem"
+  },
+  {
+    "Id": 7,
+    "FullName": "dolo",
+    "Notes": "",
+    "ExpiryDate": "2026-10-31T00:00:00",
+    "Quantity": 1,
+    "Price": 20,
+    "Brand": "dolo500"
+  }
+]

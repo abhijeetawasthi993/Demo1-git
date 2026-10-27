@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "MedicineId": 1,
+    "MedicineName": "Dolo 650",
+    "QtySold": 1,
+    "UnitPrice": 30.75,
+    "Amount": 30.75,
+    "SoldOn": "2026-10-11T10:39:08.0115578+05:30"
+  },
+  {
+    "Id": 2,
+    "MedicineId": 1,
+    "MedicineName": "Dolo 650",
+    "QtySold": 1,
+    "UnitPrice": 30.75,
+    "Amount": 30.75,
+    "SoldOn": "2026-10-11T10:39:16.1755318+05:30"
+  },
+  {
+    "Id": 3,
+    "MedicineId": 2,
+    "MedicineName": "Crocin Advance",
+    "QtySold": 2,
+    "UnitPrice": 18.00,
+    "Amount": 36.00,
+    "SoldOn": "2026-10-11T11:34:10.027184+05:30"
+  },
+  {
+    "Id": 4,
+    "MedicineId": 2,
+    "MedicineName": "Crocin Advance",
+    "QtySold": 1,
+    "UnitPrice": 18.00,
+    "Amount": 18.00,
+    "SoldOn": "2026-10-11T11:34:18.5407112+05:30"
+  }
+]

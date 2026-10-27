@@ -1,0 +1,77 @@
+body
+{
+    margin: 0px;
+    font-family: Arial;
+    font-size: 13px;
+    background-color: #f5f5f5;
+}
+
+#header
+{
+    background-color: #24578a;
+    color: White;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content
+{
+    padding: 15px 20px 20px 20px;
+}
+
+table
+{
+    border-collapse: collapse;
+    background-color: White;
+}
+
+th
+{
+    background-color: #4f81bd;
+    color: White;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+td
+{
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+fieldset
+{
+    background-color: White;
+    padding: 10px;
+}
+
+.clr
+{
+    border: 1px solid #666;
+}
+
+.red
+{
+    background-color: #f5b5b5;
+}
+
+.yel
+{
+    background-color: #f7e07c;
+}
+
+input[type=button]
+{
+    background-color: #4f81bd;
+    color: White;
+    border: solid 1px #24578a;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+a
+{
+    color: #24578a;
+}

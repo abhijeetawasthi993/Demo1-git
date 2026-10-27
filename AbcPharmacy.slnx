@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AbcPharmacy/AbcPharmacy.csproj" />
+  <Project Path="MyConsoleApp/MyConsoleApp.csproj" />
+</Solution>

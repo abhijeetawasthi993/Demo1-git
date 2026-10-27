@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC Pharmacy</title>
+    <link href="site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        ABC Pharmacy
+        <span style="font-size:13px;font-weight:normal;"> - Medicines stock</span>
+    </div>
+
+    <div id="content">
+        <p>
+            <span class="clr red">&nbsp;&nbsp;&nbsp;&nbsp;</span> Expiry less than 30 days
+            &nbsp;&nbsp;
+            <span class="clr yel">&nbsp;&nbsp;&nbsp;&nbsp;</span> Qty less than 10
+        </p>
+
+        <p>
+            Search :
+            <input type="text" id="txtSearch" size="30" />
+            <input type="button" value="Search" onclick="searchClick()" />
+            <input type="button" value="Reset" onclick="resetClick()" />
+        </p>
+
+        <table id="grd" cellpadding="5" cellspacing="0" width="100%">
+            <tr>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Expiry Date</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Notes</th>
+            </tr>
+        </table>
+        <div id="lblMsg"></div>
+        <br />
+
+        <table width="100%" cellpadding="0" cellspacing="0">
+            <tr valign="top">
+                <td width="48%">
+                    <fieldset>
+                        <legend>Add Medicine</legend>
+                        <table>
+                            <tr>
+                                <td>Full Name</td>
+                                <td><input type="text" id="txtName" /></td>
+                            </tr>
+                            <tr>
+                                <td>Brand</td>
+                                <td><input type="text" id="txtBrand" /></td>
+                            </tr>
+                            <tr>
+                                <td>Expiry Date</td>
+                                <td><input type="date" id="txtExpiry" /></td>
+                            </tr>
+                            <tr>
+                                <td>Quantity</td>
+                                <td><input type="text" id="txtQty" /></td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td><input type="text" id="txtPrice" /></td>
+                            </tr>
+                            <tr>
+                                <td>Notes</td>
+                                <td><textarea id="txtNotes" rows="3" cols="22"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="button" value="Add" onclick="addMedicine()" /></td>
+                            </tr>
+                        </table>
+                        <span id="lblAdd"></span>
+                    </fieldset>
+                </td>
+                <td width="4%"></td>
+                <td width="48%">
+                    <fieldset>
+                        <legend>Sale</legend>
+                        Medicine :
+                        <select id="cmbMed"></select>
+                        <br /><br />
+                        Qty :
+                        <input type="text" id="txtSaleQty" value="1" size="6" />
+                        &nbsp;
+                        <input type="button" value="Save Sale" onclick="addSale()" />
+                        <br /><br />
+                        <span id="lblSale"></span>
+                        <br />
+                        <b>Sale records</b>
+                        <table id="grdSale" cellpadding="4" cellspacing="0" width="100%">
+                            <tr>
+                                <th>Date</th>
+                                <th>Medicine</th>
+                                <th>Qty</th>
+                                <th>Amount</th>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
